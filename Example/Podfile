@@ -4,7 +4,7 @@ platform :ios, '9.0'
 
 target 'XFLoginModule_Example' do
   pod 'XFLoginModule', :path => '../'
-
+  pod 'XFNetworking',:path => '../../XFNetworking'
   target 'XFLoginModule_Tests' do
     inherit! :search_paths
 

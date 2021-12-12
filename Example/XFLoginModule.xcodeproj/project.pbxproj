@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		11C0F2F1420F3CF521861013 /* Pods_XFLoginModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFLoginModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4BEAF90A6A8DA017CE33D9 /* XFLoginModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XFLoginModule.podspec; path = ../XFLoginModule.podspec; sourceTree = "<group>"; };
+		2B4BEAF90A6A8DA017CE33D9 /* XFLoginModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XFLoginModule.podspec; path = ../XFLoginModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DCE1A61B6CECAF777C96342 /* Pods-XFLoginModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFLoginModule_Example.release.xcconfig"; path = "Target Support Files/Pods-XFLoginModule_Example/Pods-XFLoginModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		39178D879A69AE189A235DB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39178D879A69AE189A235DB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XFLoginModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFLoginModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7465EBCD631DE304C8A74CB1 /* Pods_XFLoginModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XFLoginModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A00AA76EEA66E0B16A416CD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A00AA76EEA66E0B16A416CD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AFE26776FF073C3179C4860E /* Pods-XFLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFLoginModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-XFLoginModule_Tests/Pods-XFLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C478DC229700D3B56C2DE6A8 /* Pods-XFLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFLoginModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XFLoginModule_Tests/Pods-XFLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAD1CFD6F9C82CCA7F379472 /* Pods-XFLoginModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFLoginModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-XFLoginModule_Example/Pods-XFLoginModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				C478DC229700D3B56C2DE6A8 /* Pods-XFLoginModule_Tests.debug.xcconfig */,
 				AFE26776FF073C3179C4860E /* Pods-XFLoginModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -322,10 +322,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XFLoginModule_Example/Pods-XFLoginModule_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XFLoginModule/XFLoginModule.framework",
+				"${BUILT_PRODUCTS_DIR}/XFNetworking/XFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XFLoginModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XFNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,6 @@
+framework module XFLoginModule {
+  umbrella header "XFLoginModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

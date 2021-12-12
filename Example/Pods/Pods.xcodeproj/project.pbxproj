@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01CB960354EA703855C3CE9DFEB78B53 /* Pods-XFLoginModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 654178AE60997F5B6BA118474BF97A43 /* Pods-XFLoginModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06AE55DFA96CE2661894AABF93024285 /* Pods-XFLoginModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B46315511F7B1C6EF4B1AC617202C /* Pods-XFLoginModule_Tests-dummy.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A8D647B330FF6F296CCB8D03649F99 /* XCTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		23068FA879C54FA6B61A13B049DF46B1 /* Pods-XFLoginModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAE0A6148BC2618FC0D85CA18F97CBA /* Pods-XFLoginModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9999467F41DCD2B2631333D1944DFE41 /* QuartzCore.framework */; };
+		3407C61588C7A866FF683C5E5117F317 /* XFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E72E6806049825A6479AC52395BE29B /* XFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356E644901EC54694CC3FB2F820F7531 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C71ED06EE6AE601ADD5473D51EF35 /* ReplaceMe.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		553C8B4C52BBFA3AD11F952D55033435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468218AA576752754774089B8E77522 /* Foundation.framework */; };
+		6D8B6E382149C23404133E01CA24EA0A /* XFTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1316B2CE808FBB4E6263261916E737 /* XFTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		8770DA11841141927D509B00BDE3FBE9 /* XFLoginModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C26330982FAE33978793CE992C0C61F8 /* XFLoginModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A19B87100D886CC1187D5D17BFFB6616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468218AA576752754774089B8E77522 /* Foundation.framework */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		B2F9FD836A12ED67E2033D3F0BB90A44 /* XFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342B5EDDA70624174F83F6C543206FA2 /* XFNetworking.framework */; };
+		B3FBC32704907954BC0142E0157BB1E0 /* XFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7F6DA7EFD0FF5DAE9C352E629C8C0 /* XFNetworking-dummy.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BCB5368DE9442F97E01CD9100E4AEA0D /* XFLoginModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E755385A079C27DDFEF123CCDC919 /* XFLoginModule-dummy.m */; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD147F8E77F3E5C611FA51E57197358 /* UIKit.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468218AA576752754774089B8E77522 /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D5B539F91B74356397008BF5503FCD54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468218AA576752754774089B8E77522 /* Foundation.framework */; };
+		DE1C0378DC482E064D39964E540623C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468218AA576752754774089B8E77522 /* Foundation.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F32F6B23E9FEE0C34E1EAF41E3DBDC58 /* XFTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA58EA44B90E2A5FBBD8225A28AC9D8 /* XFTestViewController.m */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCAA4CC03E6A2C3C2F22410E8C5F2CCE /* Pods-XFLoginModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CE4CDDAF3FC83E7FF3DC2A8595E225 /* Pods-XFLoginModule_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28B58EBCDF5FD5F7EF981D5D04B0C19B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455BE4F9F9AA3F95BD77986C4B942DD1;
+			remoteInfo = "Pods-XFLoginModule_Example";
+		};
+		9227E75C1363A96E06570D7D677FF87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA07EEAED7AA887F8E3A778898E2F39B;
+			remoteInfo = XFLoginModule;
+		};
+		9F30F591E837CD7C8AD5636E0EAC09A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4738070F877C5E4D1565D39EEA087787;
+			remoteInfo = XFNetworking;
+		};
+		CA82E8A8B5D7EFA364FADF19B42FA4EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		EE977915D1F70E1719D0F9A5238865FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4738070F877C5E4D1565D39EEA087787;
+			remoteInfo = XFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079DA1B9A2F79694051041504246421C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07B19A50BA2B19B18B6D658AE14C9FC2 /* Pods-XFLoginModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFLoginModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A091C4FF64734949226753A3B362895 /* Pods-XFLoginModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoginModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0EB87FA201CF4C5165B869BA98242081 /* Pods-XFLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		11A8D647B330FF6F296CCB8D03649F99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		12001AFB9F9E797122CB7385AC92EEFF /* Pods-XFLoginModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoginModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		17EC628D94C5A303D3CE778A439F9089 /* XFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFNetworking-Info.plist"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1E72E6806049825A6479AC52395BE29B /* XFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		263440A04F0A397A087154C2ADA4F5EF /* XFLoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XFLoginModule.framework; path = XFLoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		342B5EDDA70624174F83F6C543206FA2 /* XFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E89CA0B26A0D59EB5409710D1F1AB4 /* XFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		3D1C2F53C78038FCD0CCF6A595E374AC /* XFLoginModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFLoginModule-Info.plist"; sourceTree = "<group>"; };
+		3E88328E67D872BB242F8F8415AFAA06 /* Pods-XFLoginModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoginModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA58EA44B90E2A5FBBD8225A28AC9D8 /* XFTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFTestViewController.m; path = XFNetworking/Classes/XFTestViewController.m; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		495E755385A079C27DDFEF123CCDC919 /* XFLoginModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFLoginModule-dummy.m"; sourceTree = "<group>"; };
+		4A1316B2CE808FBB4E6263261916E737 /* XFTestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFTestViewController.h; path = XFNetworking/Classes/XFTestViewController.h; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		533F80C3BD6E1709FC9125EF653CC0DD /* XFLoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFLoginModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAE0A6148BC2618FC0D85CA18F97CBA /* Pods-XFLoginModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFLoginModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		654178AE60997F5B6BA118474BF97A43 /* Pods-XFLoginModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFLoginModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6D90B08094C8E144CA3DAC85A18CD516 /* XFLoginModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFLoginModule.release.xcconfig; sourceTree = "<group>"; };
+		71CE4CDDAF3FC83E7FF3DC2A8595E225 /* Pods-XFLoginModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFLoginModule_Example-dummy.m"; sourceTree = "<group>"; };
+		75D7F6DA7EFD0FF5DAE9C352E629C8C0 /* XFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFNetworking-dummy.m"; sourceTree = "<group>"; };
+		79EF48CDE75541C166323A8C125BFA7D /* XFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7F2196105FA0CBF621D9F222DEC98CE2 /* Pods-XFLoginModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoginModule_Example-Info.plist"; sourceTree = "<group>"; };
+		81240E3079C938A6A2CBE711D5845928 /* XFNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		820B78DDADBC196F4D884A5067740F05 /* XFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XFNetworking.framework; path = XFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		92A4EDEAC83A203EBE852B4C108BEE0F /* XFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		9468218AA576752754774089B8E77522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		9581400DFD94169584305896E68BCF9C /* Pods-XFLoginModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFLoginModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		95994187FB42A35031CD7B0DEA907351 /* XFLoginModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFLoginModule.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		9999467F41DCD2B2631333D1944DFE41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9C8C71ED06EE6AE601ADD5473D51EF35 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XFLoginModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0DE9EE763A1747561DC44BC8CD00F85 /* XFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFNetworking.modulemap; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B672C2479DFABBFA7F8677D1D35D67A1 /* Pods-XFLoginModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFLoginModule_Tests.modulemap"; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B891B4CA1C6DC0B52B7EC77BBF0197A9 /* Pods-XFLoginModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFLoginModule_Example.modulemap"; sourceTree = "<group>"; };
+		BFD147F8E77F3E5C611FA51E57197358 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C26330982FAE33978793CE992C0C61F8 /* XFLoginModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFLoginModule-umbrella.h"; sourceTree = "<group>"; };
+		C6F55559AE91FF745AA74CE15FDD88A4 /* XFLoginModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFLoginModule.modulemap; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CD95F9A5991170351BB1931348DA4DF6 /* Pods_XFLoginModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFLoginModule_Example.framework; path = "Pods-XFLoginModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D1D7782FC8F946A4B043D54F5E5067FB /* Pods-XFLoginModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFLoginModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D25A35A8FF4E80CEA950FF2AE61C285A /* Pods-XFLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D97B46315511F7B1C6EF4B1AC617202C /* Pods-XFLoginModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFLoginModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB295589665D74244BC7591A4DF3F1ED /* Pods-XFLoginModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoginModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		E1F6C43BA315FFD1D5AB11CA7C9352A7 /* Pods_XFLoginModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFLoginModule_Tests.framework; path = "Pods-XFLoginModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F23037E9D73E49447021411A931D35 /* Pods-XFLoginModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFLoginModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E82DD58511283F114D54875219F016EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E9550110ABDC94DB31BAD0420C14EDD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EC2BF55021932E7D6E2D5D592D8271EA /* Pods-XFLoginModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFLoginModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F8DA3736E82E4DE985825A13A6257C36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FBBAB42BEFFA4D85D9B8A350FA7DE16F /* XFLoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFLoginModule-prefix.pch"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		208F63484EE381CA14DF9559E18D7D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B539F91B74356397008BF5503FCD54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548DBFB1E61D7B9E7E6DCE3B95E64C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553C8B4C52BBFA3AD11F952D55033435 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF959B6DE294E098FD6AA9CB2BD29A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1C0378DC482E064D39964E540623C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46023EB6E88116F1933A7DB6B147D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19B87100D886CC1187D5D17BFFB6616 /* Foundation.framework in Frameworks */,
+				B2F9FD836A12ED67E2033D3F0BB90A44 /* XFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CE05FE9E9A33498F6B400858FB8EEA /* Pods-XFLoginModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B672C2479DFABBFA7F8677D1D35D67A1 /* Pods-XFLoginModule_Tests.modulemap */,
+				07B19A50BA2B19B18B6D658AE14C9FC2 /* Pods-XFLoginModule_Tests-acknowledgements.markdown */,
+				E7F23037E9D73E49447021411A931D35 /* Pods-XFLoginModule_Tests-acknowledgements.plist */,
+				D97B46315511F7B1C6EF4B1AC617202C /* Pods-XFLoginModule_Tests-dummy.m */,
+				EC2BF55021932E7D6E2D5D592D8271EA /* Pods-XFLoginModule_Tests-frameworks.sh */,
+				DB295589665D74244BC7591A4DF3F1ED /* Pods-XFLoginModule_Tests-Info.plist */,
+				5FAE0A6148BC2618FC0D85CA18F97CBA /* Pods-XFLoginModule_Tests-umbrella.h */,
+				D25A35A8FF4E80CEA950FF2AE61C285A /* Pods-XFLoginModule_Tests.debug.xcconfig */,
+				0EB87FA201CF4C5165B869BA98242081 /* Pods-XFLoginModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-XFLoginModule_Tests";
+			path = "Target Support Files/Pods-XFLoginModule_Tests";
+			sourceTree = "<group>";
+		};
+		30DE27B9BD168986396544D239E7B6C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0DE9EE763A1747561DC44BC8CD00F85 /* XFNetworking.modulemap */,
+				75D7F6DA7EFD0FF5DAE9C352E629C8C0 /* XFNetworking-dummy.m */,
+				17EC628D94C5A303D3CE778A439F9089 /* XFNetworking-Info.plist */,
+				35E89CA0B26A0D59EB5409710D1F1AB4 /* XFNetworking-prefix.pch */,
+				1E72E6806049825A6479AC52395BE29B /* XFNetworking-umbrella.h */,
+				92A4EDEAC83A203EBE852B4C108BEE0F /* XFNetworking.debug.xcconfig */,
+				79EF48CDE75541C166323A8C125BFA7D /* XFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../XFLoginModule/Example/Pods/Target Support Files/XFNetworking";
+			sourceTree = "<group>";
+		};
+		435F1A669708F1FB726AF02EFBE16D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				CD95F9A5991170351BB1931348DA4DF6 /* Pods_XFLoginModule_Example.framework */,
+				E1F6C43BA315FFD1D5AB11CA7C9352A7 /* Pods_XFLoginModule_Tests.framework */,
+				263440A04F0A397A087154C2ADA4F5EF /* XFLoginModule.framework */,
+				820B78DDADBC196F4D884A5067740F05 /* XFNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6AEA2512E618008FF5103AC3EFF2F6EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				079DA1B9A2F79694051041504246421C /* LICENSE */,
+				F8DA3736E82E4DE985825A13A6257C36 /* README.md */,
+				81240E3079C938A6A2CBE711D5845928 /* XFNetworking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6F8CD8FE9812C01B0E1AD2F9B4A703E7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9468218AA576752754774089B8E77522 /* Foundation.framework */,
+				9999467F41DCD2B2631333D1944DFE41 /* QuartzCore.framework */,
+				BFD147F8E77F3E5C611FA51E57197358 /* UIKit.framework */,
+				11A8D647B330FF6F296CCB8D03649F99 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CDF15B90C4ADB266087360DC59499B3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D85970A8DD44345C20A49BC533EBA7AC /* XFLoginModule */,
+				84CB703D232093D62155E6B65BE925EF /* XFNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		84CB703D232093D62155E6B65BE925EF /* XFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4A1316B2CE808FBB4E6263261916E737 /* XFTestViewController.h */,
+				3EA58EA44B90E2A5FBBD8225A28AC9D8 /* XFTestViewController.m */,
+				6AEA2512E618008FF5103AC3EFF2F6EE /* Pod */,
+				30DE27B9BD168986396544D239E7B6C5 /* Support Files */,
+			);
+			name = XFNetworking;
+			path = ../../../XFNetworking;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		93041237C8FDD3D6FFE515181CFB0582 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6F55559AE91FF745AA74CE15FDD88A4 /* XFLoginModule.modulemap */,
+				495E755385A079C27DDFEF123CCDC919 /* XFLoginModule-dummy.m */,
+				3D1C2F53C78038FCD0CCF6A595E374AC /* XFLoginModule-Info.plist */,
+				FBBAB42BEFFA4D85D9B8A350FA7DE16F /* XFLoginModule-prefix.pch */,
+				C26330982FAE33978793CE992C0C61F8 /* XFLoginModule-umbrella.h */,
+				95994187FB42A35031CD7B0DEA907351 /* XFLoginModule.debug.xcconfig */,
+				6D90B08094C8E144CA3DAC85A18CD516 /* XFLoginModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XFLoginModule";
+			sourceTree = "<group>";
+		};
+		9A44D7180CF92C4D151B5792A7835AB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E82DD58511283F114D54875219F016EE /* LICENSE */,
+				E9550110ABDC94DB31BAD0420C14EDD6 /* README.md */,
+				533F80C3BD6E1709FC9125EF653CC0DD /* XFLoginModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BB8F36E6E43E16E1E16B47F85EF02DC1 /* Pods-XFLoginModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B891B4CA1C6DC0B52B7EC77BBF0197A9 /* Pods-XFLoginModule_Example.modulemap */,
+				D1D7782FC8F946A4B043D54F5E5067FB /* Pods-XFLoginModule_Example-acknowledgements.markdown */,
+				12001AFB9F9E797122CB7385AC92EEFF /* Pods-XFLoginModule_Example-acknowledgements.plist */,
+				71CE4CDDAF3FC83E7FF3DC2A8595E225 /* Pods-XFLoginModule_Example-dummy.m */,
+				9581400DFD94169584305896E68BCF9C /* Pods-XFLoginModule_Example-frameworks.sh */,
+				7F2196105FA0CBF621D9F222DEC98CE2 /* Pods-XFLoginModule_Example-Info.plist */,
+				654178AE60997F5B6BA118474BF97A43 /* Pods-XFLoginModule_Example-umbrella.h */,
+				3E88328E67D872BB242F8F8415AFAA06 /* Pods-XFLoginModule_Example.debug.xcconfig */,
+				0A091C4FF64734949226753A3B362895 /* Pods-XFLoginModule_Example.release.xcconfig */,
+			);
+			name = "Pods-XFLoginModule_Example";
+			path = "Target Support Files/Pods-XFLoginModule_Example";
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		BE63B07948C8B42BB6703CA2D6138CB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB8F36E6E43E16E1E16B47F85EF02DC1 /* Pods-XFLoginModule_Example */,
+				05CE05FE9E9A33498F6B400858FB8EEA /* Pods-XFLoginModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE55C455F2FC9DF9AAAEC5037E522E33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342B5EDDA70624174F83F6C543206FA2 /* XFNetworking.framework */,
+				6F8CD8FE9812C01B0E1AD2F9B4A703E7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7CDF15B90C4ADB266087360DC59499B3 /* Development Pods */,
+				CE55C455F2FC9DF9AAAEC5037E522E33 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				435F1A669708F1FB726AF02EFBE16D61 /* Products */,
+				BE63B07948C8B42BB6703CA2D6138CB8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D85970A8DD44345C20A49BC533EBA7AC /* XFLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C71ED06EE6AE601ADD5473D51EF35 /* ReplaceMe.m */,
+				9A44D7180CF92C4D151B5792A7835AB1 /* Pod */,
+				93041237C8FDD3D6FFE515181CFB0582 /* Support Files */,
+			);
+			name = XFLoginModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19E9D0E35066262B8BB6BB5F908C6A77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CB960354EA703855C3CE9DFEB78B53 /* Pods-XFLoginModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD8062BA12D1A2DB80AF6843F100C3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3407C61588C7A866FF683C5E5117F317 /* XFNetworking-umbrella.h in Headers */,
+				6D8B6E382149C23404133E01CA24EA0A /* XFTestViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7CCC0643945C91C242055655BA8CFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23068FA879C54FA6B61A13B049DF46B1 /* Pods-XFLoginModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6601EA025A374A9AD00AE3878B0C798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8770DA11841141927D509B00BDE3FBE9 /* XFLoginModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		455BE4F9F9AA3F95BD77986C4B942DD1 /* Pods-XFLoginModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A02A3D5C570F337E3D9CF7267084C65 /* Build configuration list for PBXNativeTarget "Pods-XFLoginModule_Example" */;
+			buildPhases = (
+				19E9D0E35066262B8BB6BB5F908C6A77 /* Headers */,
+				3EE213BACE74D40A35B4270F9F3C3139 /* Sources */,
+				208F63484EE381CA14DF9559E18D7D7C /* Frameworks */,
+				50111D0DA7D96C09BA9043CAF2A57FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				597938D37CA7D5FCD885D079D5DF5859 /* PBXTargetDependency */,
+				540D07ED0E04D77D6AD0EA6D763B778D /* PBXTargetDependency */,
+			);
+			name = "Pods-XFLoginModule_Example";
+			productName = "Pods-XFLoginModule_Example";
+			productReference = CD95F9A5991170351BB1931348DA4DF6 /* Pods_XFLoginModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4738070F877C5E4D1565D39EEA087787 /* XFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F682AE9DD1B0A74DD7E892BC7112896 /* Build configuration list for PBXNativeTarget "XFNetworking" */;
+			buildPhases = (
+				4CD8062BA12D1A2DB80AF6843F100C3D /* Headers */,
+				FF30A3476915F127639E2FF53A467079 /* Sources */,
+				AFF959B6DE294E098FD6AA9CB2BD29A6 /* Frameworks */,
+				FE523F7A63C1E8BDA46905941DB1296C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFNetworking;
+			productName = XFNetworking;
+			productReference = 820B78DDADBC196F4D884A5067740F05 /* XFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F51F3347EC5CF9FF997DDDB3E350440 /* Pods-XFLoginModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BDFB444BA591DAD47283150B2F1A1F /* Build configuration list for PBXNativeTarget "Pods-XFLoginModule_Tests" */;
+			buildPhases = (
+				9E7CCC0643945C91C242055655BA8CFB /* Headers */,
+				F0841F16D6B968BB86D3B068FECD1F68 /* Sources */,
+				548DBFB1E61D7B9E7E6DCE3B95E64C32 /* Frameworks */,
+				3B58D5F3C80EAAFA0AC070D32C43B135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0CCC49234D7DC9ED799CDB8D846611A /* PBXTargetDependency */,
+				68B1BB3090A693900A6C571DAA1A555B /* PBXTargetDependency */,
+			);
+			name = "Pods-XFLoginModule_Tests";
+			productName = "Pods-XFLoginModule_Tests";
+			productReference = E1F6C43BA315FFD1D5AB11CA7C9352A7 /* Pods_XFLoginModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA07EEAED7AA887F8E3A778898E2F39B /* XFLoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4932768E1C45B4D39A3656DA2943150F /* Build configuration list for PBXNativeTarget "XFLoginModule" */;
+			buildPhases = (
+				A6601EA025A374A9AD00AE3878B0C798 /* Headers */,
+				A69B24F4E8D370D46835FA0507A1CF04 /* Sources */,
+				D46023EB6E88116F1933A7DB6B147D5E /* Frameworks */,
+				BB4ACE82E84C37B3F40A0DF08C8F105F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C715CA4EAD030944C5DAAB0597929842 /* PBXTargetDependency */,
+			);
+			name = XFLoginModule;
+			productName = XFLoginModule;
+			productReference = 263440A04F0A397A087154C2ADA4F5EF /* XFLoginModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 435F1A669708F1FB726AF02EFBE16D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				455BE4F9F9AA3F95BD77986C4B942DD1 /* Pods-XFLoginModule_Example */,
+				4F51F3347EC5CF9FF997DDDB3E350440 /* Pods-XFLoginModule_Tests */,
+				AA07EEAED7AA887F8E3A778898E2F39B /* XFLoginModule */,
+				4738070F877C5E4D1565D39EEA087787 /* XFNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B58D5F3C80EAAFA0AC070D32C43B135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50111D0DA7D96C09BA9043CAF2A57FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4ACE82E84C37B3F40A0DF08C8F105F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE523F7A63C1E8BDA46905941DB1296C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE213BACE74D40A35B4270F9F3C3139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAA4CC03E6A2C3C2F22410E8C5F2CCE /* Pods-XFLoginModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69B24F4E8D370D46835FA0507A1CF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356E644901EC54694CC3FB2F820F7531 /* ReplaceMe.m in Sources */,
+				BCB5368DE9442F97E01CD9100E4AEA0D /* XFLoginModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0841F16D6B968BB86D3B068FECD1F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AE55DFA96CE2661894AABF93024285 /* Pods-XFLoginModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF30A3476915F127639E2FF53A467079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FBC32704907954BC0142E0157BB1E0 /* XFNetworking-dummy.m in Sources */,
+				F32F6B23E9FEE0C34E1EAF41E3DBDC58 /* XFTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540D07ED0E04D77D6AD0EA6D763B778D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XFNetworking;
+			target = 4738070F877C5E4D1565D39EEA087787 /* XFNetworking */;
+			targetProxy = EE977915D1F70E1719D0F9A5238865FD /* PBXContainerItemProxy */;
+		};
+		597938D37CA7D5FCD885D079D5DF5859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XFLoginModule;
+			target = AA07EEAED7AA887F8E3A778898E2F39B /* XFLoginModule */;
+			targetProxy = 9227E75C1363A96E06570D7D677FF87E /* PBXContainerItemProxy */;
+		};
+		68B1BB3090A693900A6C571DAA1A555B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XFLoginModule_Example";
+			target = 455BE4F9F9AA3F95BD77986C4B942DD1 /* Pods-XFLoginModule_Example */;
+			targetProxy = 28B58EBCDF5FD5F7EF981D5D04B0C19B /* PBXContainerItemProxy */;
+		};
+		C715CA4EAD030944C5DAAB0597929842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XFNetworking;
+			target = 4738070F877C5E4D1565D39EEA087787 /* XFNetworking */;
+			targetProxy = 9F30F591E837CD7C8AD5636E0EAC09A8 /* PBXContainerItemProxy */;
+		};
+		D0CCC49234D7DC9ED799CDB8D846611A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = CA82E8A8B5D7EFA364FADF19B42FA4EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B3A04937C2E6DFB161B42E36F3BEA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D90B08094C8E144CA3DAC85A18CD516 /* XFLoginModule.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XFLoginModule/XFLoginModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XFLoginModule/XFLoginModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XFLoginModule/XFLoginModule.modulemap";
+				PRODUCT_MODULE_NAME = XFLoginModule;
+				PRODUCT_NAME = XFLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1D4CA91E9E3060B9AA13FE55091C7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25A35A8FF4E80CEA950FF2AE61C285A /* Pods-XFLoginModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XFLoginModule_Tests/Pods-XFLoginModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XFLoginModule_Tests/Pods-XFLoginModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB82BD817FAC64C90A8F4C0A29B09B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EF48CDE75541C166323A8C125BFA7D /* XFNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XFNetworking/XFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XFNetworking/XFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XFNetworking/XFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = XFNetworking;
+				PRODUCT_NAME = XFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D14A1B46679C303D6FE730522FDCAA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A4EDEAC83A203EBE852B4C108BEE0F /* XFNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XFNetworking/XFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XFNetworking/XFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XFNetworking/XFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = XFNetworking;
+				PRODUCT_NAME = XFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDD1BD8AABDEE08EC961092250FBE3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95994187FB42A35031CD7B0DEA907351 /* XFLoginModule.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XFLoginModule/XFLoginModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XFLoginModule/XFLoginModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XFLoginModule/XFLoginModule.modulemap";
+				PRODUCT_MODULE_NAME = XFLoginModule;
+				PRODUCT_NAME = XFLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E277FF5A1278DD86CCB0E8403B24F185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E88328E67D872BB242F8F8415AFAA06 /* Pods-XFLoginModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XFLoginModule_Example/Pods-XFLoginModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XFLoginModule_Example/Pods-XFLoginModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECBA3C4A40056F7D8D34F3D5F69D058B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB87FA201CF4C5165B869BA98242081 /* Pods-XFLoginModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XFLoginModule_Tests/Pods-XFLoginModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XFLoginModule_Tests/Pods-XFLoginModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB2C2530D262C6782C2D8E89FE9468CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A091C4FF64734949226753A3B362895 /* Pods-XFLoginModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XFLoginModule_Example/Pods-XFLoginModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XFLoginModule_Example/Pods-XFLoginModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A02A3D5C570F337E3D9CF7267084C65 /* Build configuration list for PBXNativeTarget "Pods-XFLoginModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E277FF5A1278DD86CCB0E8403B24F185 /* Debug */,
+				FB2C2530D262C6782C2D8E89FE9468CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4932768E1C45B4D39A3656DA2943150F /* Build configuration list for PBXNativeTarget "XFLoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD1BD8AABDEE08EC961092250FBE3F5 /* Debug */,
+				5B3A04937C2E6DFB161B42E36F3BEA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F682AE9DD1B0A74DD7E892BC7112896 /* Build configuration list for PBXNativeTarget "XFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14A1B46679C303D6FE730522FDCAA1C /* Debug */,
+				CB82BD817FAC64C90A8F4C0A29B09B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BDFB444BA591DAD47283150B2F1A1F /* Build configuration list for PBXNativeTarget "Pods-XFLoginModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D4CA91E9E3060B9AA13FE55091C7A1 /* Debug */,
+				ECBA3C4A40056F7D8D34F3D5F69D058B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

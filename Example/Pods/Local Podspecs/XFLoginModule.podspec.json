@@ -1,0 +1,27 @@
+{
+  "name": "XFLoginModule",
+  "version": "0.1.0",
+  "summary": "A short description of XFLoginModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhanfengline@gmail.com/XFLoginModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhanfengline@gmail.com": "zhanfeng.chen@juphoon.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/zhanfengline@gmail.com/XFLoginModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XFLoginModule/Classes/**/*",
+  "dependencies": {
+    "XFNetworking": [
+
+    ]
+  }
+}
