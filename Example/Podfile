@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XFLoginModule_Example' do
+  pod 'XFLoginModule', :path => '../'
+
+  target 'XFLoginModule_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
